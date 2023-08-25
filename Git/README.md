@@ -1,10 +1,36 @@
-# Git 基礎操作
-## git init 建立數據庫
-這指令主要就是會在你的資料夾建立一個 .git 資料夾，任何版本控制項目都會透過它進行監視版控。
+# Git 常用指令
+- git 是對資料夾做版本管理的工具
 ```
-$ git init
-Initialized empty Git repository in "專案路徑"/.git/
-```
-## git add、git commit 提交版本
+# 查版本
+git --version
 
-## git 檔案追蹤機制
+# 一開始 config 要做的
+git config --global user.name "roberthsu"
+git config --global user.email scchang@gmail.com
+
+# 查目前 cofnig 狀態
+git config -l
+git config --list
+
+# 初始化, 把資料夾納入 git 管理, 會在資料夾中產生 .git
+git init
+
+# 將檔案加入追蹤
+git add .
+
+# 提交版本至本機
+git commit 
+
+# 提交版本至Github
+git push
+
+# 從 github 下載一全新的 repository 至本機
+git clone
+
+# 本機已有 repository, 從 Gihub 更新至本機
+git pull
+
+# 取消 git 管理
+rm
+
+```
