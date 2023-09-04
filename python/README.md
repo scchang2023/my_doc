@@ -9,7 +9,15 @@
 
 ### 常用外部套件
 [requests](https://pypi.org/project/requests/)
+
+[matplot](https://matplotlib.org/)
+
+[numpy](https://numpy.org/)
     
 [pandas](https://pypi.org/project/pandas/)
 
 [selenium](https://pypi.org/project/selenium/)
+
+[streamlit](https://pypi.org/project/selenium/)
+
+[pytz](https://pypi.org/project/pytz/)
