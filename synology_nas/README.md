@@ -71,7 +71,6 @@ ipkg update
 which ipkg # 檢查有沒有被正確安裝
 echo $PATH # 檢查 $PATH 環境變數包含 ipkg 所在路徑
 export PATH=/usr/local/bin:/opt/bin:$PATH # 如果 $PATH 中没有包含 ipkg 的路徑，将它添加到 $PATH 
-
 ```
 ### 安裝 Git
 ```
