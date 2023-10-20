@@ -1,7 +1,7 @@
 ### 環境安裝
-編輯器：[Visual Studio Code (System Installer)](https://code.visualstudio.com/Download#)
+編輯器 ( 雲端 )：Github -> Repositories -> 選一個 repository -> <>Code -> Codespace
 
-Extension : Remote Repositories
+編輯器 ( 本機 )：[Visual Studio Code (System Installer)](https://code.visualstudio.com/Download#)
 
 [Python enviroment](https://www.python.org/)
 
