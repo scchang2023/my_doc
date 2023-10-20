@@ -1,3 +1,10 @@
+### 環境安裝
+編輯器：[Visual Studio Code (System Installer)](https://code.visualstudio.com/Download#)
+
+Extension : Remote Repositories
+
+[Python enviroment](https://www.python.org/)
+
 ### 內建函式及套件
 [standard function](https://docs.python.org/3/library/functions.html)
 
