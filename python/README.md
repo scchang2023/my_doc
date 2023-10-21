@@ -4,7 +4,7 @@
 
 編輯器 ( 本機 )：[Visual Studio Code (System Installer)](https://code.visualstudio.com/Download#)
 
-[Python enviroment](https://www.python.org/)
+[Python 下載](https://www.python.org/)
 
 ### 內建函式及套件
 [standard function](https://docs.python.org/3/library/functions.html)
