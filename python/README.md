@@ -29,3 +29,5 @@
 [streamlit](https://pypi.org/project/selenium/)
 
 [pytz](https://pypi.org/project/pytz/)
+
+[pyinputplus](https://pypi.org/project/PyInputPlus/)
