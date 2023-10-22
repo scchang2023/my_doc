@@ -20,6 +20,9 @@ git config --list
 # 初始化, 把資料夾納入 git 管理, 會在資料夾中產生 .git
 git init
 
+# 查看Git倉庫目前狀態
+git status
+
 # 將檔案加入追蹤
 git add .
 
