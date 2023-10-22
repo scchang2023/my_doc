@@ -1,7 +1,9 @@
 # Git
 git 是對資料夾做版本管理的工具
 
-[Git下載](https://git-scm.com/download/win)
+### [Git下載](https://git-scm.com/download/win)
+
+### [Git文件說明](https://git-scm.com/book/zh-tw/v2)
 ### 常用指令
 ```
 # 查版本
