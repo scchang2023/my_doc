@@ -95,3 +95,11 @@ pip --version
 # 查看列表
 pip list
 ```
+### Nas 排程設定
+```
+1 到控制台->任務排程
+2 新增使用者定義指令碼，以stock notify為範例，如下：
+cd /volume1/py_env
+source bin/activate
+python /volume1/py_env/work/python_learning/apps/stock_notify/stock_notify.py
+```
