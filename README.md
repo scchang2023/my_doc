@@ -1,9 +1,9 @@
 # doc
 
-## [在 Synology NAS 執行程式](./synology_nas/README.md)
+## [Linux](./01_linux/README.md)
 
-## [在 GCP (Google Cloud Platform) 執行程式](./gcp/README.md)
+## [Git](./02_git/README.md)
 
-## [Git](./Git/README.md)
+## [在 GCP (Google Cloud Platform) 執行程式](./03_gcp/README.md)
 
-## [Linux](./linux/README.md)
+## [在 Synology NAS 執行程式](./04_synology_nas/README.md)
