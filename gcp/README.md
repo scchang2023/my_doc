@@ -17,14 +17,19 @@
 
 ## 下載專案： crawler_water_meter
 
-- `git clone https://github.com/scchang2023/crawler_water_meter.git`
-- 更新軟體包列表： `sudo apt update`
-- 安裝 pip, 為 Python 3 安裝 pip 和依賴項：`sudo apt install python3-pip`
+`git clone https://github.com/scchang2023/crawler_water_meter.git`
+
+## 更新軟體包列表
+
+為確保系統中的軟體包是最新的：`sudo apt update`
+
+## 安裝 pip
+
+為 Python 3 安裝 pip 和依賴項：`sudo apt install python3-pip`
 
 ## 安裝 crawler_water_meter 會用到的套件
 
 - `pip install selenium`
-- `sudo apt update`
 - `sudo apt install chromium`
 
 ## 下載安裝 unzip
