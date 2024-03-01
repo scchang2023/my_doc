@@ -1,6 +1,6 @@
 # doc
 
-## [Synology NAS](./synology_nas/README.md)
+## [在 Synology NAS 執行程式](./synology_nas/README.md)
 
 ## [在 GCP (Google Cloud Platform) 執行程式](./gcp/README.md)
 
