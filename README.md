@@ -2,7 +2,7 @@
 
 ## [Synology NAS](./synology_nas/README.md)
 
-## [GCP(Google Cloud Platform)](./gcp/README.md)
+## [在 GCP (Google Cloud Platform) 執行程式](./gcp/README.md)
 
 ## [Git](./Git/README.md)
 
