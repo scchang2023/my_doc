@@ -37,7 +37,7 @@
 - 因為在 NAS 上無法使用 apt, 所以找到可以用 ipkg 套件
 
 1. 以 root 權限登入：`sudo -i`
-1. cd /volume1/@tmp
+1. `cd /volume1/@tmp`
 1. 下載 ipkg： `wget http://ipkg.nslu2-linux.org/optware-ng/bootstrap/buildroot-armeabihf-bootstrap.sh`
 1. 修改檔案或目錄的權限：`chmod +x buildroot-armeabihf-bootstrap.sh`
 1. 執行腳本：`./buildroot-armeabihf-bootstrap.sh`
