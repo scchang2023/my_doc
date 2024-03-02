@@ -2,6 +2,10 @@
 
 - Git 是對資料夾做版本管理的工具
 
+  ![Alt text](./01.jpg)
+  
+  ![Alt text](./02.png)
+
 - [Git 官方下載](https://git-scm.com/download/win)
 
 - [Git 官方文件說明](https://git-scm.com/book/zh-tw/v2)
