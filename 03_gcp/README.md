@@ -1,14 +1,14 @@
 # 在 GCP (Google Cloud Platform) 執行程式
 
-## 連線至 [Google Cloud Console](https://console.cloud.google.com/)
+- GCP 官網：[Google Cloud Console](https://console.cloud.google.com/)
 
 ## 開始新專案與管理
 
-- 新建專案(project id)
-- IAM與管理->管理資源可看目前資源使用狀況
-- 啟動 compute Engine API
-- Compute Engine -> VM 執行個體 ->建立執行個體
-- 點選執行個體的SSH連線，可以透過瀏覽器進行SSH連線
+1. 新建專案(project id)
+1. IAM與管理->管理資源可看目前資源使用狀況
+1. 啟動 compute Engine API
+1. Compute Engine -> VM 執行個體 ->建立執行個體
+1. 點選執行個體的SSH連線，可以透過瀏覽器進行SSH連線
 
 ## 安裝 git
 
