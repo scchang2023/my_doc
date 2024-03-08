@@ -6,4 +6,6 @@
 
 - [在 GCP (Google Cloud Platform) 執行程式](./03_gcp/README.md)
 
-- [在 Synology NAS 執行程式](./04_synology_nas/README.md)
+- [在 synology 執行 python 程式](./04_synology_python/README.md)
+
+- [在 synology 架設 wordpress](./05_synology_wordpress/README.md)
