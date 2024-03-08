@@ -1,10 +1,4 @@
-# 在 synology 執行 python 程式
-
-## 目前我的 NAS 登入網址
-
-- 內部(固定ip)： http://192.168.1.2:5000
-- 外部： https://scchang2023.quickconnect.to
-- 或是搜尋 NAS 裝置： https://finds.synology.com/
+# 在 synology nas 執行 python 程式
 
 ## 以 SSH 登入
 
