@@ -1,6 +1,15 @@
 # 在 synology 架設 wordpress
 
+## 參考
+
+- [Synology NAS 上架設 WordPress 教學](https://cyberjos.blog/software/wordpress/install-wordpress-on-synology-1-prerequite/)
+
 ## 前置工作
+
+1. 檢查硬體規格：控制台->系統->資訊中心
+1. 安全性檢查：
+   - 確保DSM為最新版：控制台->系統->更新&還原
+   - 使用者密碼強度設定：控制台->檔案分享->使用者&群組->進階設定
 
 ## 安裝 Web Station 與 Apache
 
