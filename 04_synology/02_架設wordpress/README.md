@@ -1,17 +1,38 @@
 # 在 synology nas 架設 wordpress
 
+- [Synology NAS 上架設 WordPress 教學](https://cyberjos.blog/software/wordpress/install-wordpress-on-synology-1-prerequite/)
+
 ## 前置工作
+
+### 檢查硬體規格
+
+### 安全性檢查
+
+### 目錄存取控制
+
+### 防火牆與路由器設定
+
+### SSL 憑證申請
 
 ## 安裝 Web Station 與 Apache
 
+- web station 功能：變成能運行網站的伺服器，建立和管理個人網站、部落格、或者小型商業網站
+- 套件中心->web station
+- 會產生新的目錄架構
+  - web：架設網站的檔案儲存於此共用資料夾中
+  - web_packages：已安裝的第三方套件檔案（例如：phpMyAdmin）會儲存於此共用資料夾中
+- 如果你想要安裝套件中心裡的 phpMyAdmin 去管理資料庫的話，它的相依性套件中必須要安裝 Apache。
+- 套件中心->Apache HTTP Server
+
 ## 安裝 MariaDB
 
-- MariaDB 則是負責存放 WordPress 的文章、頁面、分類、標籤、用戶以及其他設定。每當我們新增文章、上傳檔案、用戶留言等事件發生時，相關的紀錄都會存在資料庫之中。等到有使用者請求存取該資源時，才會去資料庫中將它讀取出來並呈現給使用者。
-- MariaDB 是開源的關聯式資料庫管理系統，它是 MySQL 資料庫的一個分支和替代選擇。MariaDB 的開發由原本的 MySQL 開發者主導，目標是提供兼容且更先進的資料庫解決方案。它保留了 MySQL 的主要功能，同時進行了優化和擴展，以提供更高的性能、可靠性和安全性。
+- MariaDB 則是負責存放 WordPress 的文章、頁面、分類、標籤、用戶以及其他設定。
+- MariaDB 是開源的關聯式資料庫管理系統，它是 MySQL 資料庫的一個分支和替代選擇。
+- 套件中心->MariaDB
 
 ## 安裝 PHP 與 phpMyAdmin
 
-- PHP 是一種廣泛使用的開源腳本語言，特別適合用於網頁開發。它可以嵌入到 HTML 中，並在伺服器端執行，以動態生成網頁內容。PHP 是一個強大的工具，能夠處理表單、資料庫、圖片處理等多種任務，並生成動態和互動式的網頁。它的語法易於理解和學習，使得網頁開發變得簡單而高效。
-- phpMyAdmin 是基於網頁的 MySQL（MariaDB）資料庫管理工具。它提供了直觀的用戶界面，讓你能夠通過瀏覽器來管理資料庫，而無需使用命令行或其他桌面程式。phpMyAdmin 提供了各種操作，包括創建、修改和刪除資料庫、資料表，執行 SQL 查詢，以及導入和導出資料。
+- PHP 是一種廣泛使用的開源腳本語言，特別適合用於網頁開發。它可以嵌入到 HTML 中，並在伺服器端執行，以動態生成網頁內容。
+- phpMyAdmin 是基於網頁的 MySQL（MariaDB）資料庫管理工具。
 
 ## 安裝 WordPress
