@@ -5,7 +5,7 @@
 1. 使用NAS的DSM，開啟控制台->終端機&SNMP
 1. 終端機的「啟用SSH功能」打勾，連接埠就用預設的 22
 1. 在PC端，開啟終端機
-1. `ssh scchang@192.168.1.69 -p 221`
+1. `ssh scchang@192.168.1.2 -p 22`
 1. `sudo -i` 以root權限登入, sudo是superdo, -i是login
 
 可參考：[如何透過 SSH 以 root 權限登入 DSM / SRM](https://kb.synology.com/zh-tw/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
@@ -66,5 +66,5 @@ synology 可以從 DSM 套件安裝 python3，但是沒有 pip 可以使用，�
     ```linux
     cd /volume1/py_env
     source bin/activate
-    python /volume1/py_env/work/python_learning/apps/stock_notify/stock_notify.py
+    python /volume1/py_env/work/python/my_apps/stock_notify/stock_notify.py
     ```
