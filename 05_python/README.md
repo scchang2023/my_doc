@@ -33,7 +33,12 @@ python -m virtualenv myenv01
 ```
 可以在 myenv01 裡面看到一些資料夾及檔案。
 ### Step3 啟動虛擬環境
-在 myenv01 資料夾底下的 scripts 資料夾裡，執行
+在 myenv01 資料夾底下的 scripts 資料夾裡
+bash底下，執行
+```
+source activate
+```
+windows底下，執行
 ```
 activate
 ```
