@@ -33,7 +33,12 @@ python -m virtualenv myenv01
 ```
 可以在 myenv01 裡面看到一些資料夾及檔案。
 ### Step3 啟動虛擬環境
-在 myenv01 資料夾底下的 scripts 資料夾裡，執行
+在 myenv01 資料夾底下的 scripts 資料夾裡
+bash底下，執行
+```
+source activate
+```
+windows底下，執行
 ```
 activate
 ```
@@ -57,15 +62,4 @@ pip freeze > requirements.txt
 ### Step3 安裝依賴
 ```
 pip install -r requirements.txt
-```
-
-## pip常用的操作命令
-列出所有已安装的套件
-```
-pip freeze > packages.txt
-```
-
-批次移除所有套件，-y為詢問
-```
-pip uninstall -r packages.txt -y
 ```
