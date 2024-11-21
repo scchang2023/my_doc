@@ -58,3 +58,14 @@ pip freeze > requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+## pip常用的操作命令
+列出所有已安装的套件
+```
+pip freeze > packages.txt
+```
+
+批次移除所有套件，-y為詢問
+```
+pip uninstall -r packages.txt -y
+```
