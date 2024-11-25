@@ -9,3 +9,5 @@
 - [synology nas 的操作](./04_synology/README.md)
 
 - [python](./05_python/README.md)
+
+- [在windows建立linux環境](./06_建立linux環境/README.md)
