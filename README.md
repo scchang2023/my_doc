@@ -10,6 +10,6 @@
 
 - [python](./05_python/README.md)
 
-- [在windows建立linux環境](./06_在windows建立linux環境/README.md)
+- [在windows建立linux環境(WSL)](./06_在windows建立linux環境/README.md)
 
 - [在樹莓派安裝作業系統](./07_在樹莓派安裝作業系統/README.md)
