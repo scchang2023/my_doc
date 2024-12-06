@@ -8,7 +8,7 @@
 
 - [synology nas 的操作](./04_synology/README.md)
 
-- [python](./05_python/README.md)
+- [使用virtualen套件建立虛擬環境](./05_virtualen/README.md)
 
 - [在windows建立linux環境(WSL)](./06_在windows建立linux環境/README.md)
 

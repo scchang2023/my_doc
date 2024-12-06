@@ -1,5 +1,3 @@
-# Python
-
 ## 使用virtualen套件建立虛擬環境
 
 ### pip 做升級
