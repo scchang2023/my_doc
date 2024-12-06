@@ -51,6 +51,10 @@ sudo service ssh status
 
 在電腦的任何命令列(cmd/ powershell/ Gitbash)執行：`ssh pi@192.168.1.118`即可登入樹莓派，或是使用 putty，直接輸入 ip 登入。
 
+![alt text](image-10.png)
+
 ### 使用 VNC Viewer 達到遠端桌面功能
 
 我們之前已將 VNC 服務打開了，所以我們可以在電腦上執行 VNC 即可連到樹莓派遠端桌面了。
+
+![alt text](image-9.png)
