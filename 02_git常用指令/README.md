@@ -71,5 +71,15 @@ git log -2
 查看改動情形
 git log -p
 
+去掉作者日期訊息，以簡潔方式輸出
+git log --oneline
+
 按 q 跳出
+```
+退回之前的版本
+```
+git reset --hard <commit-hash>
+
+如果之前已經有push到Github的，需要強制push：
+git push origin <branch-name> --force
 ```
